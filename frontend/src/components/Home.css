@@ -1,141 +1,153 @@
 /* Title */
 .title {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 36px;
-  color: #003366;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    color: #003366;
 }
 
 /* Subheading */
 h5 {
-  text-align: center;
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
 }
+
 /* Search input */
 .search {
-  display: block;
-  margin: 0 auto 10px auto;
-  padding: 10px 14px;
-  font-size: 16px;
-  border: 1px solid #aaa;
-  border-radius: 6px;
-  width: 250px;
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    width: 250px;
 }
+
 /* Search button */
 .searchbutton {
-  display: block;
-  margin: 0 auto 30px auto;
-  padding: 10px 20px;
-  background-color: #0066ff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 10px 20px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
 .searchbutton:hover {
-  background-color: #0047b3;
+    background-color: #0047b3;
 }
+
 /* Tasks section */
 h3 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
 }
+
 p {
-  text-align: center;
-  color: #777;
+    text-align: center;
+    color: #777;
 }
+
 .box {
-  background: #fff;
-  margin: 15px auto;
-  padding: 15px;
-  max-width: 500px;
-  border-radius: 3px;
+    background: #fff;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 500px;
+    border-radius: 3px;
 }
+
 .box h4 {
-  max-width: 50%;
-  margin: 0 0 5px 0;
-  color: #222;
+    max-width: 50%;
+    margin: 0 0 5px 0;
+    color: #222;
 }
+
 .box p {
-  max-width: 50%;
-  margin: 0 0 5px 0;
-  color: #444;
+    max-width: 50%;
+    margin: 0 0 5px 0;
+    color: #444;
 }
 
 .box small {
-  color: #666;
+    color: #666;
 }
+
 /* Add Task button */
 .button-align {
-  text-align: center;
-  margin-top: 40px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .button {
-  padding: 12px 20px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
 .button:hover {
-  background-color: #1e7e34;
+    background-color: #1e7e34;
 }
+
 .box {
-  border-radius: 3px;
+    border-radius: 3px;
 }
 
 .deletebutton {
-  float: right;
+    float: right;
 
-  background-color: blue;
-  /* Green background */
-  color: white;
-  /* White text */
-  padding: 12px 24px;
-  /* Spacing */
-  border: none;
-  /* No border */
-  border-radius: 8px;
-  /* Rounded corners */
-  font-size: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  /* Pointer on hover */
-  right: 35%;
+    background-color: blue;
+    /* Green background */
+    color: white;
+    /* White text */
+    padding: 12px 24px;
+    /* Spacing */
+    border: none;
+    /* No border */
+    border-radius: 8px;
+    /* Rounded corners */
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    /* Pointer on hover */
+    right: 35%;
 }
 
 .editbutton {
-  float: right;
-  margin-right: 5px;
-  background-color: red;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 30px;
-  font-size: 12px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  padding-bottom: 10px;
-  right: 35%;
+    float: right;
+    margin-right: 5px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-bottom: 10px;
+    right: 35%;
 }
 
 .completebutton {
-  background-color: gray;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 15px;
-  margin-left: 15px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin-left: 15px;
 }
-.completebutton:hover{
-  cursor: pointer;
+
+.completebutton:hover {
+    cursor: pointer;
 }
